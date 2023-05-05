@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>News portal</title>
+    <link rel="stylesheet" href="fonts/dm_sans/stylesheet.css" />
+    <link rel="stylesheet" href="css/core.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="/img/logoTest.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="container">
+          <div class="header_inner">
+            <div class="header_icon">
+              <img src="./img/logoTest.png" alt="logo" />
+              <span>Новости и точка</span>
+            </div>
+            <div class="header_menu">
+              <a href="">
+                <span>Власть</span>
+              </a>
+              <a href="">
+                <span>Спорт</span>
+              </a>
+              <a href="">
+                <span>Проишествия</span>
+              </a>
+              <a href="">
+                <span>Экономика</span>
+              </a>
+              <a href="">
+                <span>О нас</span>
+              </a>
+            </div>
+            <div class="header_ver">
+              <a href="/logIn.html"><button>Войти</button> </a>
+              <a href="/signUp.html"> <button>Регистарция</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="container">
+          <div class="main_inner">
+            <div class="main_inner_news">
+              <h2>Главные новости недели:</h2>
+              <div class="main_inner_news_slider">
+                <div class="main_inner_news_image">
+                  <div class="slides">
+                    <div class="slide-1">
+                      <img src="/img/image1.jpg" />
+                    </div>
+                    <div class="slide-2">
+                      <img src="/img/image2.jpg" />
+                    </div>
+                    <div class="slide-3">
+                      <img src="/img/image3.jpg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="main_inner_news_image_text">
+                  <div class="main_inner_news_image_text_global-box">
+                    <div class="main_inner_news_image_text-box">
+                      <a href="">
+                        <span
+                          >С начала года международные резервы Кыргызстана
+                          снизились на $308,39 миллиона
+                        </span>
+                      </a>
+                    </div>
+                    <div class="main_inner_news_image_text-box">
+                      <a href="">
+                        <span
+                          >Решение принято. С 1 мая 2023 года вырастут тарифы на
+                          электроэнергию Решение принято. С 1 мая 2023 года
+                          вырастут тарифы на электроэнергию
+                        </span>
+                      </a>
+                    </div>
+                    <div class="main_inner_news_image_text-box">
+                      <a href="">
+                        <span
+                          >С начала года международные резервы Кыргызстана
+                          снизились на $308,39 миллиона
+                        </span>
+                      </a>
+                    </div>
+                    <div class="main_inner_news_image_text-box">
+                      <a href="">
+                        <span
+                          >С начала года международные резервы Кыргызстана
+                          снизились на $308,39 миллиона
+                        </span>
+                      </a>
+                    </div>
+                    <div class="main_inner_news_image_text-box">
+                      <a href="">
+                        <span
+                          >С начала года международные резервы Кыргызстана
+                          снизились на $308,39 миллиона
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="main_inner_pogoda">
+              <div class="main_inner_LogIn">
+                <h4>Авторизоваться</h4>
+                <form onsubmit="return validateForm()">
+                  <input
+                    class="input"
+                    type="text"
+                    id="username"
+                    name="username"
+                    required
+                    placeholder="E-mail"
+                  />
+                  <br />
+                  <input
+                    class="input"
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Пароль"
+                    required
+                  />
+                  <br />
+
+                  <input class="button" type="submit" value="Войти" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="news">
+        <div class="container">
+          <div class="news_inner">
+            <div class="news_inner_buttons">
+              <button class="button" data-target="block1">ПОЛИТИКА</button>
+              <button class="button" data-target="block2">ОБЩЕСТВО</button>
+              <button class="button" data-target="block3">В МИРЕ</button>
+              <button class="button" data-target="block4">СПОРТ</button>
+            </div>
+            <div class="news_inner_news_globals" id="block1">
+              <div class="news_inner_news">
+                <div class="news_inner_news_global">
+                  <h2>Политические новости:</h2>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Выборы по Ленинскому округу. В ЦИК поступило заявление
+                        от кандидата Ремнева
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Выборы по Ленинскому округу. В ЦИК поступило заявление
+                        от кандидата Ремнева
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Выборы по Ленинскому округу. В ЦИК поступило заявление
+                        от кандидата Ремнева
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Выборы по Ленинскому округу. В ЦИК поступило заявление
+                        от кандидата Ремнева
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Выборы по Ленинскому округу. В ЦИК поступило заявление
+                        от кандидата Ремнева
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Выборы по Ленинскому округу. В ЦИК поступило заявление
+                        от кандидата Ремнева
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Выборы по Ленинскому округу. В ЦИК поступило заявление
+                        от кандидата Ремнева
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Выборы по Ленинскому округу. В ЦИК поступило заявление
+                        от кандидата Ремнева
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="news_inner_news_cards">
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/Polit1.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          О чем говорили Акылбек Жапаров и Шавкат Мирзиёев на
+                          встрече в Ташкенте?
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/Polit2.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Какие изменения предлагаются в законы в сфере обороны?
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/Polit3.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Депутат просит ускорить работу по подписанию нового
+                          соглашения о сотрудничестве с США
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/Polit4.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Террористические группы, которые перешли на территорию
+                          Афганистана, активно начинают свои движения, -
+                          секретарь Совбеза Кыргызстана
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="news_inner_news_globals" id="block2">
+              <div class="news_inner_news">
+                <div class="news_inner_news_global">
+                  <h2>Общество:</h2>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Ко Дню победы. Шакир Закиров был тяжело ранен в годы
+                        ВОВ, но вернулся на родину и продолжил работать в
+                        сельском хозяйстве
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Ко Дню победы. Шакир Закиров был тяжело ранен в годы
+                        ВОВ, но вернулся на родину и продолжил работать в
+                        сельском хозяйстве
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Ко Дню победы. Шакир Закиров был тяжело ранен в годы
+                        ВОВ, но вернулся на родину и продолжил работать в
+                        сельском хозяйстве
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Ко Дню победы. Шакир Закиров был тяжело ранен в годы
+                        ВОВ, но вернулся на родину и продолжил работать в
+                        сельском хозяйстве
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Ко Дню победы. Шакир Закиров был тяжело ранен в годы
+                        ВОВ, но вернулся на родину и продолжил работать в
+                        сельском хозяйстве
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Ко Дню победы. Шакир Закиров был тяжело ранен в годы
+                        ВОВ, но вернулся на родину и продолжил работать в
+                        сельском хозяйстве
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Ко Дню победы. Шакир Закиров был тяжело ранен в годы
+                        ВОВ, но вернулся на родину и продолжил работать в
+                        сельском хозяйстве
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Ко Дню победы. Шакир Закиров был тяжело ранен в годы
+                        ВОВ, но вернулся на родину и продолжил работать в
+                        сельском хозяйстве
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="news_inner_news_cards">
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/ob2.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          В ряде районов Чуйской области 28 апреля не будет
+                          света. Перечень участков
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/ob1.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Ко Дню победы. Шакир Закиров был тяжело ранен в годы
+                          ВОВ, но вернулся на родину и продолжил работать в
+                          сельском хозяйстве
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/ob3.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          29 апреля, 2, 3, 4 мая в Боомском ущелье будут
+                          спускать камни
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/ob4.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Фото — Служебные дома, которые строят для
+                          руководителей в городе Баткен
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="news_inner_news_globals" id="block3">
+              <div class="news_inner_news">
+                <div class="news_inner_news_global">
+                  <h2>Азия и мир:</h2>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Эрдоган: Турция присоединяется к клубу стран с атомной
+                        энергетикой, хоть и с задержкой
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Эрдоган: Турция присоединяется к клубу стран с атомной
+                        энергетикой, хоть и с задержкой
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Эрдоган: Турция присоединяется к клубу стран с атомной
+                        энергетикой, хоть и с задержкой
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Эрдоган: Турция присоединяется к клубу стран с атомной
+                        энергетикой, хоть и с задержкой
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Эрдоган: Турция присоединяется к клубу стран с атомной
+                        энергетикой, хоть и с задержкой
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Эрдоган: Турция присоединяется к клубу стран с атомной
+                        энергетикой, хоть и с задержкой
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Эрдоган: Турция присоединяется к клубу стран с атомной
+                        энергетикой, хоть и с задержкой
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Эрдоган: Турция присоединяется к клубу стран с атомной
+                        энергетикой, хоть и с задержкой
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="news_inner_news_cards">
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/mir1.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          <span
+                            >Эрдоган: Турция присоединяется к клубу стран с
+                            атомной энергетикой, хоть и с задержкой
+                          </span>
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/mir2.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Украина получила 98% обещанной помощи НАТО, - генсек
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/mir3.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Касым-Жомарт Токаев рассказал о посте Садыра Жапарова
+                          про братство двух народов
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/mir4.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Байден грозит свергнуть действующий режим Пхеньяна в
+                          случае ядерной атаки КНДР на США или союзников
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="news_inner_news_globals" id="block4">
+              <div class="news_inner_news">
+                <div class="news_inner_news_global">
+                  <h2>Cпорт:</h2>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Стали известны соперники сборной Кыргызстана на Кубке
+                        наций Футбольной ассоциации Центральной Азии
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Стали известны соперники сборной Кыргызстана на Кубке
+                        наций Футбольной ассоциации Центральной Азии
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Стали известны соперники сборной Кыргызстана на Кубке
+                        наций Футбольной ассоциации Центральной Азии
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Стали известны соперники сборной Кыргызстана на Кубке
+                        наций Футбольной ассоциации Центральной Азии
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Стали известны соперники сборной Кыргызстана на Кубке
+                        наций Футбольной ассоциации Центральной Азии
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Стали известны соперники сборной Кыргызстана на Кубке
+                        наций Футбольной ассоциации Центральной Азии
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Стали известны соперники сборной Кыргызстана на Кубке
+                        наций Футбольной ассоциации Центральной Азии
+                      </span>
+                    </a>
+                  </div>
+                  <div class="news_inner_news_global_news">
+                    <a href="">
+                      <span
+                        >Стали известны соперники сборной Кыргызстана на Кубке
+                        наций Футбольной ассоциации Центральной Азии
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="news_inner_news_cards">
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/sp1.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          <span
+                            >Стали известны соперники сборной Кыргызстана на
+                            Кубке наций Футбольной ассоциации Центральной Азии
+                          </span>
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/sp2.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Борец Акжол Махмудов рассказал, почему проиграл в
+                          финале Олимпийских игр в Токио
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/sp3.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Гимнастки из Кыргызстана завоевали 12 золотых медалей
+                          на турнире в Ташкенте
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="news_inner_news_card">
+                      <img src="./img/sp4.jpg" alt="" />
+
+                      <a href="">
+                        <p class="news_inner_news_card_text">
+                          Президент ФИФА Джанни Инфантино впервые посетит
+                          Кыргызстан
+                        </p>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="course">
+        <div class="container">
+          <div class="box-content">
+            <div class="liftside">
+              <div class="left_side_text">
+                <h2>"Казахи и кыргызы - братские народы."</h2>
+              </div>
+              <div class="left_side_mini_text">
+                <p>
+                  Президент Казахстана Касым-Жомарт Токаев подчеркнул нерушимую
+                  дружбу и братство между народами Казахстана и Кыргызстана в
+                  своем недавнем выступлении. Он процитировал слова президента
+                  Кыргызстана Садыра Жапарова о том, что казахи и кыргызы -
+                  братские народы.
+                </p>
+              </div>
+              <a
+                href="https://www.youtube.com/watch?v=JzwvNYM8SAw&ab_channel=AKIpressnews"
+              >
+                <button>Посмотреть</button>
+              </a>
+            </div>
+            <div class="rightside">
+              <a
+                href="https://www.youtube.com/watch?v=JzwvNYM8SAw&ab_channel=AKIpressnews"
+              >
+                <img src="./img/play1.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="how_it_work">
+        <div class="container">
+          <div class="work_texts">
+            <h2>Обратная связь</h2>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="./img/ob1.svg" alt="" />
+              <a href="">
+                <h3>Связаться с нами</h3>
+              </a>
+              <div class="card_p">
+                <p class="card_limit">
+                  Если у вас есть какие-либо вопросы, предложения или
+                  комментарии, вы можете связаться с нами, используя форму
+                  обратной связи на нашем сайте или отправив нам письмо на
+                  контактный e-mail. Мы постараемся ответить вам как можно
+                  быстрее.
+                </p>
+                <span class="card_span">...</span>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/ob2.svg" alt="" />
+              <a href="">
+                <h3>Написать статью</h3>
+              </a>
+              <div class="card_p">
+                <p class="card_limit">
+                  Если у вас есть экспертное мнение или знания в какой-то
+                  области, мы будем рады опубликовать вашу статью на нашем
+                  сайте. Вы можете заполнить форму на нашем сайте, чтобы
+                  отправить свою статью, и наши редакторы рассмотрят ее для
+                  публикации.
+                </p>
+                <span class="card_span">...</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./img/ob3.svg" alt="" />
+              <a href=""> <h3>Предложить новость</h3> </a>
+              <div class="card_p">
+                <p class="card_limit">
+                  Если вы знаете о каком-то событии или новости, которые могут
+                  быть интересными для наших читателей, мы будем рады
+                  рассмотреть ваше предложение. Вы можете заполнить форму на
+                  нашем сайте, чтобы отправить свою новость, и наши редакторы
+                  рассмотрят ее для публикации на сайте.
+                </p>
+                <span class="card_span">...</span>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/ob4.svg" alt="" />
+              <a href=""> <h3>Пожаловаться на материал</h3> </a>
+              <div class="card_p">
+                <p class="card_limit">
+                  Если вы обнаружили неточности, ошибки или оскорбительный
+                  контент на нашем сайте, мы хотим знать об этом. Вы можете
+                  использовать форму на нашем сайте, чтобы сообщить нам об этих
+                  проблемах, и наши редакторы проверят материал на соответствие
+                  этическим и профессиональным стандартам.
+                </p>
+                <span class="card_span">...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="content">
+          <div class="education">
+            <div class="plus">
+              <h6>Социальные сети</h6>
+              <div class="link-icons">
+                <a href="" class="footer-icon"
+                  ><img src="./images/facebook.svg" alt=""
+                /></a>
+                <a href="" class="footer-icon"
+                  ><img src="./images/vk.svg" alt=""
+                /></a>
+                <a href="" class="footer-icon"
+                  ><img src="./images/Instagram.svg" alt=""
+                /></a>
+                <a href="" class="footer-icon"
+                  ><img src="./images/Linked.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <p>
+              Версия 2023.1 Beta © 2023 МИА «Новости и точка» Сетевое издание
+              Кыргызской Информационной Агентство зарегистрировано в
+              Государственной службе по надзору в сфере связи, информационных
+              технологий и массовых коммуникаций Кыргызской Республики
+              (ГосСвязь) 08 апреля 2014 года."
+            </p>
+          </div>
+          <div class="education">
+            <p>
+              Свидетельство о регистрации Эл № ФС77-57640 Учредитель:
+              Федеральное государственное унитарное предприятие Международное
+              информационное агентство «Новости и точка» (МИА «Новости и
+              точка»). Правила использования материалов Политика
+              конфиденциальности
+            </p>
+          </div>
+          <div class="links">
+            <p>
+              Главный редактор: Турсунбеков А.А<br />
+              Адрес электронной почты Редакции: NewandTochka@gmail.con <br />
+              По вопросам размещения пресс-релизов и рекламы: sales@ria.ru
+              <br />
+              Телефон Редакции: +996 704 572 700<br />
+              Чтобы связаться с редакцией или сообщить обо всех замеченных
+              ошибках, воспользуйтесь формой обратной связи.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>
